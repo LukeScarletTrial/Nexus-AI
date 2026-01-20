@@ -1,0 +1,7 @@
+{
+  "name": "Nexus AI",
+  "description": "A next-generation AI interface featuring real-time voice interaction and web-grounded intelligence.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

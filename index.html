@@ -37,6 +37,13 @@
       body {
         background-color: #343541; /* gpt-dark */
         color: #ECECF1;
+        margin: 0;
+        height: 100vh;
+        overflow: hidden;
+      }
+      #root {
+        height: 100%;
+        width: 100%;
       }
       /* Custom Scrollbar */
       ::-webkit-scrollbar {
@@ -67,5 +74,6 @@
 </head>
   <body>
     <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
   </body>
 </html>
